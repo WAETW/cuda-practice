@@ -10,3 +10,5 @@ set_target_properties(cuda_practice PROPERTIES
 
 
 add_executable(VectorAdd VectorAdd.cu)
+add_executable(VectorAddUnifiedMem VectorAddUnifiedMem.cu)
+add_executable(matrixMulti matrixMulti.cu)
